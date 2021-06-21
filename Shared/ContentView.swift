@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @State var isCalculating = false
     let operation = CalculatePrimeOperation()
     
     
@@ -17,19 +17,26 @@ struct ContentView: View {
             Spacer()
             DatePicker(selection: .constant(Date()), label: {Text("Date")})
                 .labelsHidden()
-            Button(action: {calculatePrimes()}, label: {Text("Calculate Primes")})
+            Button(action: {calculatePrimes()}, label: {Text("Calculate Primes")}).disabled(isCalculating)
             Spacer()
         }
     }
     
     func calculatePrimes() {
-        let queue = OperationQueue()
-        queue.addOperation(operation)
-
-//        for number in 0...1000000 {
-//            let isPrimeNumber = isPrime(number: number)
-//            print("\(number) is prime: \(isPrimeNumber)")
-//        }
+        isCalculating = true
+//
+//        let queue = OperationQueue()
+//        queue.addOperation(operation)
+//
+//        queue.addOperation {
+        DispatchQueue.global(qos: .userInitiated).async {
+            for number in 0...1000000 {
+                let isPrimeNumber = isPrime(number: number)
+                print("\(number) is prime: \(isPrimeNumber)")
+            }
+         isCalculating = false
+        }
+        
         
     }
     
