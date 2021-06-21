@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var isCalculating = false
-    let operation = CalculatePrimeOperation()
+//    let operation = CalculatePrimeOperation()
     
     
     var body: some View {
