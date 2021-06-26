@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4126694626876B76005F9044 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126694526876B76005F9044 /* ContentView.swift */; };
+		4126694726876B76005F9044 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126694526876B76005F9044 /* ContentView.swift */; };
+		4126694926876B96005F9044 /* MediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126694826876B96005F9044 /* MediaResponse.swift */; };
+		4126694A26876B96005F9044 /* MediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126694826876B96005F9044 /* MediaResponse.swift */; };
 		41B809F52680D240002A86AB /* RW_NetworkingLessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B809E22680D23E002A86AB /* RW_NetworkingLessonsApp.swift */; };
 		41B809F62680D240002A86AB /* RW_NetworkingLessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B809E22680D23E002A86AB /* RW_NetworkingLessonsApp.swift */; };
-		41B809F72680D240002A86AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B809E32680D23E002A86AB /* ContentView.swift */; };
-		41B809F82680D240002A86AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B809E32680D23E002A86AB /* ContentView.swift */; };
 		41B809F92680D240002A86AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B809E42680D240002A86AB /* Assets.xcassets */; };
 		41B809FA2680D240002A86AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B809E42680D240002A86AB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4126694526876B76005F9044 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../Downloads/video-nurls-materials-versions-5.0/07-challege-fetch-artwork-over-the-network/starter/MusicFetcher/MusicFetcher/ContentView.swift"; sourceTree = "<group>"; };
+		4126694826876B96005F9044 /* MediaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaResponse.swift; sourceTree = "<group>"; };
 		41B809E22680D23E002A86AB /* RW_NetworkingLessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RW_NetworkingLessonsApp.swift; sourceTree = "<group>"; };
-		41B809E32680D23E002A86AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41B809E42680D240002A86AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41B809E92680D240002A86AB /* RW-NetworkingLessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RW-NetworkingLessons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B809EC2680D240002A86AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				41B809E22680D23E002A86AB /* RW_NetworkingLessonsApp.swift */,
-				41B809E32680D23E002A86AB /* ContentView.swift */,
+				4126694826876B96005F9044 /* MediaResponse.swift */,
+				4126694526876B76005F9044 /* ContentView.swift */,
 				41B809E42680D240002A86AB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,8 +191,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41B809F72680D240002A86AB /* ContentView.swift in Sources */,
 				41B809F52680D240002A86AB /* RW_NetworkingLessonsApp.swift in Sources */,
+				4126694626876B76005F9044 /* ContentView.swift in Sources */,
+				4126694926876B96005F9044 /* MediaResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +201,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41B809F82680D240002A86AB /* ContentView.swift in Sources */,
 				41B809F62680D240002A86AB /* RW_NetworkingLessonsApp.swift in Sources */,
+				4126694726876B76005F9044 /* ContentView.swift in Sources */,
+				4126694A26876B96005F9044 /* MediaResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
